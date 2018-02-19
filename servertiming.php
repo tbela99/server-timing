@@ -41,22 +41,26 @@ class PlgSystemServerTiming extends JPlugin {
 	protected function getTimingData()
 	{
 		$totalTime = 0;
-		$totalMem  = 0;
+	//	$totalMem  = 0;
 		$marks     = array();
 
 		foreach (JProfiler::getInstance('Application')->getMarks() as $mark)
 		{
 			$totalTime += $mark->time;
-			$totalMem  += (float) $mark->memory;
+		//	$totalMem  += (float) $mark->memory;
 
 			$marks[] = (object) array(
 				'time'   => $mark->time,
-				'memory' => $mark->memory,
+			//	'memory' => $mark->memory,
 				'tip'    => $mark->label,
 			);
 		}
 
-        return ['totalTime' => $totalTime, 'totalMemory' => $totalMem, 'marks' => $marks];
+        return [
+		'totalTime' => $totalTime, 
+		//'totalMemory' => $totalMem, 
+		'marks' => $marks
+		];
     }
 
 }
