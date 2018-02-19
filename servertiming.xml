@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.5" type="plugin" group="system" method="upgrade">
+	<name>plg_system_servertiming</name>
+	<author>Thierry Bela</author>
+	<creationDate>Feb 2018</creationDate>
+	<copyright>Copyright (C) 2005 - 2018 Thierry Bela. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>tbela@tbela.net</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>3.5.0.1</version>
+	<description>PLG_SYSTEM_HTML_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="servertiming">servertiming.php</filename>
+		<filename>README.md</filename>
+		<folder>language</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="servertiming" label="PLG_SERVERTIMING_FIELD_ENABLE_LABEL" 
+					description="PLG_SERVERTIMING_FIELD_ENABLE_DESCRIPTION"
+			type="radio"
+			class="btn-group btn-group-yesno"
+					default="0">
+						<option value="1">JYes</option>
+						<option value="0">JNo</option>
+				</field>
+			</fieldset>
+			<fieldset name="advanced">
+			</fieldset>
+		</fields>
+	</config>
+</extension>
