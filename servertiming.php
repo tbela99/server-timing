@@ -4,8 +4,8 @@
  * @package     GZip.HTML
  * @subpackage  Server.Timing
  *
- * @copyright   Copyright (C) 2013 Thierry Bela
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ * @copyright   Copyright (C) 2018 Thierry Bela
+ * @license     MIT License
  */
 defined('_JEXEC') or die;
 
