@@ -3,8 +3,11 @@
 /**
  * @package     GZip.HTML
  * @subpackage  Server.Timing
- *
  * @copyright   Copyright (C) 2018 Thierry Bela
+ *
+ * dual licensed
+ *
+ * @license     LGPL v3
  * @license     MIT License
  */
 defined('_JEXEC') or die;
@@ -52,7 +55,7 @@ class PlgSystemServerTiming extends JPlugin {
 			$marks[] = (object) array(
 				'time'   => $mark->time,
 			//	'memory' => $mark->memory,
-				'tip'    => $mark->label,
+				'tip'    => $mark->label
 			);
 		}
 

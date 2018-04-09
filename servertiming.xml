@@ -4,9 +4,9 @@
 	<author>Thierry Bela</author>
 	<creationDate>Feb 2018</creationDate>
 	<copyright>Copyright (C) 2005 - 2018 Thierry Bela. All rights reserved.</copyright>
-	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<license>Released under dual license LGPL v3 | MIT</license>
 	<authorEmail>tbela@tbela.net</authorEmail>
-	<authorUrl>www.tbela.net</authorUrl>
+	<authorUrl>https://www.tbela.net</authorUrl>
 	<version>0.1</version>
 	<description>PLG_SYSTEM_HTML_XML_DESCRIPTION</description>
 	<files>
@@ -14,6 +14,9 @@
 		<filename>README.md</filename>
 		<folder>language</folder>
 	</files>
+	<updateservers>
+		<server type="extension" priority="1" name="plg_system_servertiming_updates">https://github.com/tbela99/server-timing/blob/master/servertiming.xml</server>
+	</updateservers>
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
