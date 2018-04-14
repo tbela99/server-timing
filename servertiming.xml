@@ -15,7 +15,7 @@
 		<folder>language</folder>
 	</files>
 	<updateservers>
-		<server type="extension" priority="1" name="plg_system_servertiming_updates">https://raw.githubusercontent.com/tbela99/server-timing/blob/master/servertiming.xml</server>
+		<server type="extension" priority="1" name="plg_system_servertiming_updates">https://raw.githubusercontent.com/tbela99/server-timing/master/servertiming.xml</server>
 	</updateservers>
 	<config>
 		<fields name="params">
