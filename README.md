@@ -36,4 +36,4 @@ Use the global Joomla profiler to profile you code
 ```
 Open the google chrome console and navigate to the network tab. Click on your page request. Click the timing tab. You will see the result.
 
-![screen capture](Capture.PNG "screen capture")
+![screen capture](https://raw.githubusercontent.com/tbela99/server-timing/master/Capture.PNG "screen capture")
